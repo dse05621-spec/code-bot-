@@ -2,9 +2,9 @@
   "name": "discord-bot",
   "version": "1.0.0",
   "description": "Discord Security Bot",
-  "main": "index.js",
+  "main": "bot.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node bot.js"
   },
   "engines": {
     "node": ">=20.0.0"
