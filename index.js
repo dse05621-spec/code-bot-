@@ -42,6 +42,11 @@ process.on("uncaughtException", (error) => {
 
 const token = process.env.DISCORD_TOKEN;
 
+console.log(
+    "DISCORD_TOKEN:",
+    token ? "FOUND" : "NOT FOUND"
+);
+
 if (!token) {
     console.error("ERROR: DISCORD_TOKEN is not configured.");
     process.exit(1);
